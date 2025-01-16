@@ -1,0 +1,700 @@
+Info about modified params should be ignored for params which are not in the config file.
+Such warnings may have been triggered because the default value of the param was modified.
+ BaPCod info - PARAM MODIFIED : 
+     StabilizationFunctionType::none 
+     ===> 
+     StabilFuncInnerAngle = 0 and StabilFuncOuterAngle = 0 
+ BaPCod info - PARAM MODIFIED : 
+     colGenStabilizationFunctionType::none 
+     ===> 
+     colGenProximalStabilizationRule::undefined 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+BaPCod v048b,  3/04/2020, © Inria Bordeaux, France (license expires 1/12/2021)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2ECVRPTW SS application parameters  
+cutOffValue = 1e+06
+BKS = 985.763
+timePrecision1stLevel = 3
+floorTimePrecision1stLevel = false
+timePrecision2ndLevel = 3
+useSSI = true
+useCSC = true
+useUbranching = true
+usaCSAbranching = false
+threePhasesOpt = false
+phaseOne = false
+phaseTwo = false
+minSatSubsetSize1U = 1
+maxSatSubsetSize1U = 5
+minSatSubsetSize2U = 1
+maxSatSubsetSize2U = 0
+nbFirstLevVeh = -1
+nbSecondLevVeh = -1
+nbCustomers = 100
+multiTrip = false
+[31m data [00m Name :   ****  30 customers, 3 satellites, 2 cdcs.
+|K| = 100  Q1 = 180  cost = 50
+|L| = 400  Q2 = 50  cost = 25
+Time horizon = 328
+Customer 0  x = -7  y = -18  demand = 23  tw = [149, 169]   st = 10
+Customer 1  x = 2  y = -4  demand = 19  tw = [113, 133]   st = 10
+Customer 2  x = -5  y = 0  demand = 24  tw = [221, 241]   st = 10
+Customer 3  x = -5  y = 27  demand = 22  tw = [142, 162]   st = 10
+Customer 4  x = 20  y = -22  demand = 16  tw = [130, 150]   st = 10
+Customer 5  x = 5  y = -8  demand = 13  tw = [110, 130]   st = 10
+Customer 6  x = 0  y = -3  demand = 7  tw = [122, 142]   st = 10
+Customer 7  x = 17  y = -19  demand = 17  tw = [224, 244]   st = 10
+Customer 8  x = 1  y = -1  demand = 12  tw = [72, 92]   st = 10
+Customer 9  x = 4  y = 16  demand = 14  tw = [116, 136]   st = 10
+Customer 10  x = 15  y = -14  demand = 22  tw = [142, 162]   st = 10
+Customer 11  x = 4  y = 15  demand = 10  tw = [97, 117]   st = 10
+Customer 12  x = 21  y = -9  demand = 12  tw = [97, 117]   st = 10
+Customer 13  x = 7  y = 18  demand = 12  tw = [138, 158]   st = 10
+Customer 14  x = 0  y = -3  demand = 15  tw = [25, 45]   st = 10
+Customer 15  x = -11  y = -10  demand = 6  tw = [44, 64]   st = 10
+Customer 16  x = 2  y = -2  demand = 6  tw = [216, 236]   st = 10
+Customer 17  x = -1  y = -25  demand = 20  tw = [73, 93]   st = 10
+Customer 18  x = -8  y = -7  demand = 12  tw = [193, 213]   st = 10
+Customer 19  x = 1  y = -2  demand = 23  tw = [75, 95]   st = 10
+Customer 20  x = 24  y = 0  demand = 16  tw = [37, 57]   st = 10
+Customer 21  x = 11  y = 3  demand = 18  tw = [115, 135]   st = 10
+Customer 22  x = 0  y = -2  demand = 14  tw = [53, 73]   st = 10
+Customer 23  x = -23  y = -13  demand = 7  tw = [62, 82]   st = 10
+Customer 24  x = 1  y = -2  demand = 10  tw = [110, 130]   st = 10
+Customer 25  x = 5  y = -6  demand = 17  tw = [26, 46]   st = 10
+Customer 26  x = 2  y = -3  demand = 7  tw = [100, 120]   st = 10
+Customer 27  x = 6  y = -18  demand = 21  tw = [196, 216]   st = 10
+Customer 28  x = -2  y = 4  demand = 6  tw = [105, 125]   st = 10
+Customer 29  x = 25  y = 1  demand = 22  tw = [175, 195]   st = 10
+Satellite 30  x = 21  y = 7  tw = [0, 329]   st = 10
+Satellite 31  x = -23  y = -7  tw = [0, 329]   st = 10
+Satellite 32  x = 2  y = -24  tw = [0, 329]   st = 10
+CDC 33  x = -4  y = 39  tw = [0, 328]    st = 0
+CDC 34  x = 11  y = -29  tw = [0, 328]    st = 0
+
+ 47.363 50.608 66.655 106.671 115.943 116.702 119.644 137.088 146.36 169.691
+ 50.497 59.769 60.528 103.537 106.782 113.517 122.829 133.954 137.199 175.818
+ 20.296 73.285 90.729 93.722 96.967 100.001 143.769 147.014 153.03 162.302
+New model incumbent solution 1e+06, TIME = 0h0m0s2t = 2
+[42m subproblem for satellite 30[00m
+[31m from time axis to customers [00m
+[42m subproblem for satellite 31[00m
+[31m from time axis to customers [00m
+[42m subproblem for satellite 32[00m
+[31m from time axis to customers [00m
+Bidirectional border value is initialised to 164
+Vertices in elem.set 30 : 0
+Vertices in elem.set 31 : 1
+Vertices in elem.set 32 : 2
+Bucket steps were recalculated for graph G_1033 : [13.12]
+RCSP solver info : non-symmetric case as associated vars of the reverse arc of 3->2 are not the same
+RCSP solver info : number of forw. reachable buckets / buck. strongly connected components is 83( 63.8462% ) / 83( 100% )
+RCSP solver info : number of back. reachable buckets / buck. strongly connected components is 84( 64.6154% ) / 84( 100% )
+Bidirectional border value is initialised to 164
+Vertices in elem.set 30 : 0
+Vertices in elem.set 31 : 1
+Vertices in elem.set 32 : 2
+Bucket steps were recalculated for graph G_1034 : [13.12]
+RCSP solver info : non-symmetric case as associated vars of the reverse arc of 3->2 are not the same
+RCSP solver info : number of forw. reachable buckets / buck. strongly connected components is 93( 71.5385% ) / 93( 100% )
+RCSP solver info : number of back. reachable buckets / buck. strongly connected components is 94( 72.3077% ) / 94( 100% )
+RCSP solver info: sparse network detected
+Bidirectional border value is initialised to 124.7
+Bucket steps were recalculated for graph G_30 : [13.12]
+RCSP solver info : non-symmetric case as the reverse arc for 1097->1087 does not exist
+RCSP solver info : number of forw. reachable buckets / buck. strongly connected components is 1699( 70.8212% ) / 1699( 100% )
+RCSP solver info: sparse network detected
+RCSP solver info : number of back. reachable buckets / buck. strongly connected components is 1091( 45.4773% ) / 1091( 100% )
+RCSP solver info: sparse network detected
+Bidirectional border value is initialised to 124.7
+Bucket steps were recalculated for graph G_31 : [13.12]
+RCSP solver info : non-symmetric case as the reverse arc for 1097->1087 does not exist
+RCSP solver info : number of forw. reachable buckets / buck. strongly connected components is 1774( 73.9167% ) / 1774( 100% )
+RCSP solver info: sparse network detected
+RCSP solver info : number of back. reachable buckets / buck. strongly connected components is 1101( 45.875% ) / 1101( 100% )
+RCSP solver info: sparse network detected
+Bidirectional border value is initialised to 124.7
+Bucket steps were recalculated for graph G_32 : [13.12]
+RCSP solver info : non-symmetric case as the reverse arc for 1097->1087 does not exist
+RCSP solver info : number of forw. reachable buckets / buck. strongly connected components is 1982( 82.6178% ) / 1982( 100% )
+RCSP solver info: sparse network detected
+RCSP solver info : number of back. reachable buckets / buck. strongly connected components is 1112( 46.3526% ) / 1112( 100% )
+Generating neibourhoods for rank-1 cuts separation
+Building structures for 4- and 5-row rank-1 packing cut separation...done!
+lm-1Rank cuts separator: subproblem dependent rank-1 cuts memory  will be used, as the vertices set is not the same in subproblems 
+Model is built TIME = 0h0m0s70t = 70
+Labels distribution in buckets (bucket size) : largest - 0, top 0.1% - 0, top 0.5% - 0, top 2% - 0, top 10% - 0, top 50% - 0
+Reduced cost fixing for graph G_1033... 130 buck. arcs remain (86.7% from prev., 68.8% from max.) + 0 jump buck. arcs (0% from max.)
+Backward reduced cost fixing... 127 buck. arcs remain (84.1% from prev., 66.1% from max.) + 0 jump buck. arcs (0% from max.)
+ TT = 0.000261, [41m pt = 1.5e-05 [00m, dt = 4.8e-05, ct = 0.000139, ndl = 0', bdl = 0', odl = 0', odf = 0', cnt = 0', bdch = 0', odch = 0', lcp = 0'
+Labels distribution in buckets (bucket size) : largest - 1, top 0.1% - 1, top 0.5% - 1, top 2% - 1, top 10% - 1, top 50% - 0
+Run forward enumeration with border = 164... succeeded! lpt = 0.01573, ndl = 0', dl = 0', lpcb = 0', dch = 0'
+Run backward enumeration... succeeded! lpt = 0.01514, ndl = 0', dl = 0', lpcb = 0', dch = 0'
+Run enumeration concatenation with time limit 3000 sec.... done!
+ TT = 0.055246, [41m pt = 0.015713 [00m, dt = 0.03087, ct = 2.4e-05, ndl = 0', bdl = 0', cnt = 0', bdch = 0', odch = 0', lcp = 0'
+Enumeration succeeded!, number of elem. solutions is 24
+[1m Enumerate all columns for cdc 33, got 24 routes. [0m
+Labels distribution in buckets (bucket size) : largest - 0, top 0.1% - 0, top 0.5% - 0, top 2% - 0, top 10% - 0, top 50% - 0
+Reduced cost fixing for graph G_1034... 163 buck. arcs remain (94.2% from prev., 78.7% from max.) + 0 jump buck. arcs (0% from max.)
+Backward reduced cost fixing... 160 buck. arcs remain (92% from prev., 76.2% from max.) + 0 jump buck. arcs (0% from max.)
+ TT = 0.000257, [41m pt = 9e-06 [00m, dt = 5.1e-05, ct = 0.000158, ndl = 0', bdl = 0', odl = 0', odf = 0', cnt = 0', bdch = 0', odch = 0', lcp = 0'
+Labels distribution in buckets (bucket size) : largest - 1, top 0.1% - 1, top 0.5% - 1, top 2% - 1, top 10% - 0, top 50% - 0
+Run forward enumeration with border = 164... succeeded! lpt = 0.015795, ndl = 0', dl = 0', lpcb = 0', dch = 0'
+Run backward enumeration... succeeded! lpt = 0.015577, ndl = 0', dl = 0', lpcb = 0', dch = 0'
+Run enumeration concatenation with time limit 3000 sec.... done!
+ TT = 0.055345, [41m pt = 0.015166 [00m, dt = 0.031372, ct = 1.1e-05, ndl = 0', bdl = 0', cnt = 0', bdch = 0', odch = 0', lcp = 0'
+Enumeration succeeded!, number of elem. solutions is 28
+[1m Enumerate all columns for cdc 34, got 28 routes. [0m
+ BcTwoLevelPrecedenceCutConstrArray() : ProbConfig =  master BcTwoLevelPrecedenceCutConstrArray =  TLPC
+[31m creating the map of capacity subproblem variables [00m
+ BcTwoLevelPrecedenceCutConstrArray() : need to create cut  
+[32m creating BcUDefCutConstrArray [00m
+************************************************************************************************
+**** BaB tree root node
+**** Local DB = -1e+12, global bounds : [ -1e+12 , 1e+06 ], TIME = 0h0m0s81t = 81
+**** 1 open nodes, 0 columns (0 active), 0 dyn. constrs. (0 active), 76 art. vars. (76 active)
+************************************************************************************************
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+----- Add fac. cuts : TLPC(24) UDEF(7), max.viol = 0, aver.viol = 0, zero viol = 31, sep/add took 0/0 sec. -----
+#<DWph=2> <it=  1> <et=0.84> <Mt= 0.00> <Spt= 0.02> <nCl=142> <al=0.50> <DB=-26351095378.4907> <Mlp=97200375.0000> <PB=1000000> 
+#<DWph=2> <it=  2> <et=0.87> <Mt= 0.00> <Spt= 0.02> <nCl= 90> <al=0.55> <DB=-25086811177.8014> <Mlp=58200704.1483> <PB=1000000> 
+#<DWph=2> <it=  3> <et=0.90> <Mt= 0.00> <Spt= 0.02> <nCl= 90> <al=0.60> <DB=-20031170990.8523> <Mlp=20401067.0605> <PB=1000000> 
+<DWph=2> <it=  4> <et=0.92> <Mt= 0.00> <Spt= 0.02> <nCl=  3> <al=0.50> <DB=-9915390419.5034> <Mlp= 1140.1063> <PB=1000000> 
+<DWph=2> <it=  5> <et=0.97> <Mt= 0.00> <Spt= 0.04> <nCl= 90> <al=0.00> <DB=-134856.2157> <Mlp= 1131.1179> <PB=1000000> 
+<DWph=2> <it=  6> <et=1.00> <Mt= 0.00> <Spt= 0.02> <nCl= 54> <al=0.30> <DB=-48135.0968> <Mlp= 1020.4564> <PB=1000000> 
+<DWph=2> <it=  7> <et=1.03> <Mt= 0.00> <Spt= 0.02> <nCl= 28> <al=0.20> <DB=-17919.9748> <Mlp=  976.2316> <PB=1000000> 
+<DWph=2> <it=  8> <et=1.05> <Mt= 0.01> <Spt= 0.02> <nCl=  6> <al=0.28> <DB=-4234.9221> <Mlp=  968.9869> <PB=1000000> 
+<DWph=2> <it=  9> <et=1.10> <Mt= 0.00> <Spt= 0.04> <nCl=  0> <al=0.00> <DB=  964.6627> <Mlp=  964.6627> <PB=1000000> 
+<DWph=1> <it= 10> <et=1.15> <Mt= 0.00> <Spt= 0.04> <nCl=  0> <al=0.00> <DB=  964.6627> <Mlp=  964.6627> <PB=1000000> 
+    TT = 4.6e-05, performed by inspection with 24 solutions, nbR1C = 0
+    TT = 4.4e-05, performed by inspection with 28 solutions, nbR1C = 0
+    RCSP exact solver info for graph G_30 : TT = 0.009879, [41m pt = 0.000287 [00m, dt = 0.003136, ct = 0.00188, ndl = 2', bdl = 2', odl = 0', odf = 1', bsi = 0', cnt = 0', bdch = 9', odch = 0', lcp = 2', #sols = 150
+    RCSP exact solver info for graph G_31 : TT = 0.009571, [41m pt = 0.000289 [00m, dt = 0.002796, ct = 0.0019, ndl = 1', bdl = 2', odl = 0', odf = 1', bsi = 0', cnt = 0', bdch = 5', odch = 0', lcp = 0', #sols = 150
+    RCSP exact solver info for graph G_32 : TT = 0.009966, [41m pt = 0.000298 [00m, dt = 0.003478, ct = 0.00178, ndl = 2', bdl = 5', odl = 0', odf = 2', bsi = 0', cnt = 0', bdch = 11', odch = 0', lcp = 1', #sols = 150
+<DWph=0> <it= 11> <et=1.19> <Mt= 0.00> <Spt= 0.04> <nCl=  0> <al=0.00> <DB=  964.6627> <Mlp=  964.6627> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Labels distribution in buckets (bucket size) : largest - 25, top 0.1% - 24, top 0.5% - 20, top 2% - 12, top 10% - 3, top 50% - 1
+Reduced cost fixing for graph G_30... 4121 buck. arcs remain (28.8% from prev., 10.7% from max.) + 0 jump buck. arcs (0% from max.)
+Backward reduced cost fixing... 4792 buck. arcs remain (71.7% from prev., 20.8% from max.) + 16 jump buck. arcs (0.0696% from max.)
+ TT = 0.016902, [41m pt = 0.001591 [00m, dt = 0.002278, ct = 0.008669, ndl = 4', bdl = 13', odl = 0', odf = 2', lpcb = 4', cnt = 12', bdch = 28', odch = 1', lcp = 3'
+Labels distribution in buckets (bucket size) : largest - 35, top 0.1% - 34, top 0.5% - 29, top 2% - 13, top 10% - 4, top 50% - 1
+Run forward enumeration with border = 124.7... succeeded! lpt = 0.006478, ndl = 1', dl = 1', lpcb = 0', dch = 113'
+Run backward enumeration... succeeded! lpt = 0.003476, ndl = 0', dl = 0', lpcb = 0', dch = 4'
+Run enumeration concatenation with time limit 0.3 sec.... done!
+ TT = 0.01853, [41m pt = 0.002103 [00m, dt = 0.009954, ct = 0.001558, ndl = 2', bdl = 1', lpcb = 0', cnt = 6', bdch = 118', odch = 0', lcp = 0'
+Enumeration succeeded!, number of elem. solutions is 2555
+Estimating inspection time...     TT = 0.001951, performed by inspection with 2555 solutions, nbR1C = 0
+[1;44m shift second-level routes to right [00m
+Doing shift...
+[35m end shift [00m
+Inspection time is low enough. Pricing will be done by inspection.
+Labels distribution in buckets (bucket size) : largest - 12, top 0.1% - 12, top 0.5% - 9, top 2% - 6, top 10% - 3, top 50% - 1
+Reduced cost fixing for graph G_31... 4631 buck. arcs remain (30% from prev., 11.6% from max.) + 0 jump buck. arcs (0% from max.)
+Backward reduced cost fixing... 5129 buck. arcs remain (77% from prev., 22.3% from max.) + 11 jump buck. arcs (0.0478% from max.)
+ TT = 0.017751, [41m pt = 0.001485 [00m, dt = 0.00231, ct = 0.009623, ndl = 3', bdl = 12', odl = 0', odf = 2', lpcb = 3', cnt = 13', bdch = 21', odch = 0', lcp = 1'
+Labels distribution in buckets (bucket size) : largest - 18, top 0.1% - 17, top 0.5% - 12, top 2% - 6, top 10% - 3, top 50% - 1
+Run forward enumeration with border = 124.7... succeeded! lpt = 0.006609, ndl = 2', dl = 1', lpcb = 0', dch = 113'
+Run backward enumeration... succeeded! lpt = 0.001878, ndl = 0', dl = 0', lpcb = 0', dch = 2'
+Run enumeration concatenation with time limit 0.3 sec.... done!
+ TT = 0.017174, [41m pt = 0.001104 [00m, dt = 0.008487, ct = 0.001962, ndl = 2', bdl = 1', lpcb = 0', cnt = 7', bdch = 115', odch = 0', lcp = 0'
+Enumeration succeeded!, number of elem. solutions is 3348
+Estimating inspection time...     TT = 0.002188, performed by inspection with 3348 solutions, nbR1C = 0
+[1;44m shift second-level routes to right [00m
+Doing shift...
+[35m end shift [00m
+Inspection time is low enough. Pricing will be done by inspection.
+Labels distribution in buckets (bucket size) : largest - 25, top 0.1% - 21, top 0.5% - 15, top 2% - 9, top 10% - 3, top 50% - 1
+Reduced cost fixing for graph G_32... 5981 buck. arcs remain (31.7% from prev., 13.9% from max.) + 0 jump buck. arcs (0% from max.)
+Backward reduced cost fixing... 6646 buck. arcs remain (95.8% from prev., 28.9% from max.) + 25 jump buck. arcs (0.109% from max.)
+ TT = 0.021398, [41m pt = 0.001578 [00m, dt = 0.002785, ct = 0.012637, ndl = 4', bdl = 15', odl = 0', odf = 2', lpcb = 3', cnt = 17', bdch = 33', odch = 1', lcp = 3'
+Labels distribution in buckets (bucket size) : largest - 31, top 0.1% - 28, top 0.5% - 20, top 2% - 9, top 10% - 3, top 50% - 1
+Run forward enumeration with border = 124.7... succeeded! lpt = 0.011565, ndl = 4', dl = 1', lpcb = 0', dch = 130'
+Run backward enumeration... succeeded! lpt = 0.002198, ndl = 0', dl = 0', lpcb = 0', dch = 3'
+Run enumeration concatenation with time limit 0.3 sec.... done!
+ TT = 0.028546, [41m pt = 0.001136 [00m, dt = 0.013763, ct = 0.003153, ndl = 4', bdl = 1', lpcb = 0', cnt = 12', bdch = 134', odch = 0', lcp = 0'
+Enumeration succeeded!, number of elem. solutions is 5855
+Estimating inspection time...     TT = 0.002276, performed by inspection with 5855 solutions, nbR1C = 0
+[1;44m shift second-level routes to right [00m
+Doing shift...
+[35m end shift [00m
+Inspection time is low enough. Pricing will be done by inspection.
+Regenerated 774 columns with the 'enumerated' flag
+<DWph=2> <it= 12> <et=1.47> <Mt= 0.02> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  964.6627> <Mlp=  964.6627> <PB=1000000> 
+<DWph=1> <it= 13> <et=1.49> <Mt= 0.00> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  964.6627> <Mlp=  964.6627> <PB=1000000> 
+ColGenEvalAlg final dual bound: 964.663 (rounded: 964.663)
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+----- Add fac. cuts : CAP(1) CSC(7), max.viol = 0.733333, aver.viol = 0.691667, sep/add took 0/0 sec. -----
+922 columns (922 active), 39 dyn. constrs. (39 active), 117 art. vars. (117 active)
+<DWph=2> <it=  1> <et=1.52> <Mt= 0.00> <Spt= 0.02> <nCl= 19> <al=0.00> <DB=-7077.2296> <Mlp=  975.8109> <PB=1000000> 
+<DWph=2> <it=  2> <et=1.55> <Mt= 0.01> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  975.8109> <Mlp=  975.8109> <PB=1000000> 
+<DWph=1> <it=  3> <et=1.57> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  975.8109> <Mlp=  975.8109> <PB=1000000> 
+    TT = 4.6e-05, performed by inspection with 24 solutions, nbR1C = 0
+    TT = 4.9e-05, performed by inspection with 28 solutions, nbR1C = 0
+    TT = 0.001656, performed by inspection with 2555 solutions, nbR1C = 0
+    TT = 0.001633, performed by inspection with 3348 solutions, nbR1C = 0
+    TT = 0.001787, performed by inspection with 5855 solutions, nbR1C = 0
+<DWph=0> <it=  4> <et=1.60> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  975.8109> <Mlp=  975.8109> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999989)
+ColGenEvalAlg final dual bound: 975.811 (rounded: 975.811)
+False gap improvement since the last cut separation : 0.115566 (964.663)
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+----- Add fac. cuts : CAP(1) CSC(3) SSI(1), max.viol = 0.567745, aver.viol = 0.527273, sep/add took 0/0 sec. -----
+1277 columns (1277 active), 44 dyn. constrs. (41 active), 122 art. vars. (119 active)
+<DWph=2> <it=  1> <et=1.65> <Mt= 0.00> <Spt= 0.02> <nCl=  1> <al=0.00> <DB= -555.3129> <Mlp=  977.2982> <PB=1000000> 
+<DWph=2> <it=  2> <et=1.68> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  977.2982> <Mlp=  977.2982> <PB=1000000> 
+<DWph=1> <it=  3> <et=1.70> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  977.2982> <Mlp=  977.2982> <PB=1000000> 
+    TT = 4.9e-05, performed by inspection with 24 solutions, nbR1C = 0
+    TT = 5.8e-05, performed by inspection with 28 solutions, nbR1C = 0
+    TT = 0.001668, performed by inspection with 2555 solutions, nbR1C = 0
+    TT = 0.001556, performed by inspection with 3348 solutions, nbR1C = 0
+    TT = 0.002862, performed by inspection with 5855 solutions, nbR1C = 0
+<DWph=0> <it=  4> <et=1.72> <Mt= 0.00> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  977.2982> <Mlp=  977.2982> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999987)
+ColGenEvalAlg final dual bound: 977.298 (rounded: 977.298)
+False gap improvement since the last cut separation : 0.0152416 (975.811)
+Cut generation tailing off counter increased to 1
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+----- Add fac. cuts : CAP(10), max.viol = 0.425, aver.viol = 0.1975, sep/add took 0/0 sec. -----
+1353 columns (1353 active), 51 dyn. constrs. (49 active), 132 art. vars. (127 active)
+<DWph=2> <it=  1> <et=1.78> <Mt= 0.01> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  977.8156> <Mlp=  977.8156> <PB=1000000> 
+<DWph=1> <it=  2> <et=1.80> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  977.8156> <Mlp=  977.8156> <PB=1000000> 
+    TT = 4.9e-05, performed by inspection with 24 solutions, nbR1C = 0
+    TT = 5.1e-05, performed by inspection with 28 solutions, nbR1C = 0
+    TT = 0.001678, performed by inspection with 2555 solutions, nbR1C = 0
+    TT = 0.001472, performed by inspection with 3348 solutions, nbR1C = 0
+    TT = 0.002503, performed by inspection with 5855 solutions, nbR1C = 0
+<DWph=0> <it=  3> <et=1.82> <Mt= 0.00> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  977.8156> <Mlp=  977.8156> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999987)
+ColGenEvalAlg final dual bound: 977.816 (rounded: 977.816)
+False gap improvement since the last cut separation : 0.00529389 (977.298)
+Cut generation tailing off counter increased to 2
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+----- Add fac. cuts : CAP(1), max.viol = 0.366667, aver.viol = 0.366667, sep/add took 0/0 sec. -----
+1394 columns (1394 active), 50 dyn. constrs. (44 active), 133 art. vars. (122 active)
+<DWph=2> <it=  1> <et=1.87> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  979.6023> <Mlp=  979.6023> <PB=1000000> 
+<DWph=1> <it=  2> <et=1.90> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  979.6023> <Mlp=  979.6023> <PB=1000000> 
+    TT = 4.9e-05, performed by inspection with 24 solutions, nbR1C = 0
+    TT = 5e-05, performed by inspection with 28 solutions, nbR1C = 0
+    TT = 0.001841, performed by inspection with 2555 solutions, nbR1C = 0
+    TT = 0.001525, performed by inspection with 3348 solutions, nbR1C = 0
+    TT = 0.001794, performed by inspection with 5855 solutions, nbR1C = 0
+<DWph=0> <it=  3> <et=1.92> <Mt= 0.01> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  979.6023> <Mlp=  979.6023> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999985)
+ColGenEvalAlg final dual bound: 979.602 (rounded: 979.602)
+False gap improvement since the last cut separation : 0.0182726 (977.816)
+----- Cut separators priority level decreased to 1-----
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+24 Rank-1 3-rows pack. cuts added ,  max viol. = 0.281063, aver. viol. = 0.142473
+Building structures for heuristic rank-1 packing cut separation...done!
+32 Rank-1 4-rows pack. cuts added ,  max viol. = 0.48372, aver. viol. = 0.174647
+100 Rank-1 5-rows pack. cuts added ,  max viol. = 0.593189, aver. viol. = 0.225545
+----- Add fac. cuts : CAP(1) CSC(4) R1C(156) SSI(2), max.viol = 0.593189, aver.viol = 0.241167, sep/add took 0.37/0.06 sec. -----
+1437 columns (1437 active), 207 dyn. constrs. (204 active), 296 art. vars. (282 active)
+<DWph=2> <it=  1> <et=2.42> <Mt= 0.01> <Spt= 0.02> <nCl=  5> <al=0.00> <DB=-1320.3295> <Mlp=  984.0991> <PB=1000000> 
+<DWph=2> <it=  2> <et=2.45> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  983.9723> <Mlp=  983.9723> <PB=1000000> 
+<DWph=1> <it=  3> <et=2.48> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  983.9723> <Mlp=  983.9723> <PB=1000000> 
+    TT = 4.9e-05, performed by inspection with 24 solutions, nbR1C = 22
+    TT = 6.2e-05, performed by inspection with 28 solutions, nbR1C = 22
+    TT = 0.001929, performed by inspection with 2555 solutions, nbR1C = 22
+    TT = 0.001873, performed by inspection with 3348 solutions, nbR1C = 22
+    TT = 0.003502, performed by inspection with 5855 solutions, nbR1C = 22
+<DWph=0> <it=  4> <et=2.51> <Mt= 0.01> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  983.9723> <Mlp=  983.9723> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999981)
+ColGenEvalAlg final dual bound: 983.972 (rounded: 983.972)
+False gap improvement since the last cut separation : 0.0446099 (979.602)
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+13 Rank-1 3-rows pack. cuts added ,  max viol. = 0.149279, aver. viol. = 0.0607373
+Building structures for heuristic rank-1 packing cut separation...done!
+21 Rank-1 4-rows pack. cuts added ,  max viol. = 0.197167, aver. viol. = 0.0723155
+100 Rank-1 5-rows pack. cuts added ,  max viol. = 0.20017, aver. viol. = 0.101227
+----- Add fac. cuts : CAP(42) R1C(134), max.viol = 0.250212, aver.viol = 0.103944, sep/add took 0.59/0.15 sec. -----
+1515 columns (1515 active), 380 dyn. constrs. (241 active), 472 art. vars. (319 active)
+<DWph=2> <it=  1> <et=3.34> <Mt= 0.01> <Spt= 0.03> <nCl=  0> <al=0.00> <DB=  984.8613> <Mlp=  984.8613> <PB=1000000> 
+<DWph=1> <it=  2> <et=3.37> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  984.8613> <Mlp=  984.8613> <PB=1000000> 
+    TT = 5.3e-05, performed by inspection with 24 solutions, nbR1C = 23
+    TT = 5.5e-05, performed by inspection with 28 solutions, nbR1C = 23
+    TT = 0.002104, performed by inspection with 2555 solutions, nbR1C = 23
+    TT = 0.002289, performed by inspection with 3348 solutions, nbR1C = 23
+    TT = 0.002384, performed by inspection with 5855 solutions, nbR1C = 23
+<DWph=0> <it=  3> <et=3.40> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  984.8613> <Mlp=  984.8613> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.99998)
+ColGenEvalAlg final dual bound: 984.861 (rounded: 984.861)
+False gap improvement since the last cut separation : 0.00903514 (983.972)
+Cut generation tailing off counter increased to 1
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+2 Rank-1 3-rows pack. cuts added ,  max viol. = 0.146956, aver. viol. = 0.100818
+Building structures for heuristic rank-1 packing cut separation...done!
+10 Rank-1 4-rows pack. cuts added ,  max viol. = 0.163534, aver. viol. = 0.0615
+99 Rank-1 5-rows pack. cuts added ,  max viol. = 0.163534, aver. viol. = 0.0620474
+----- Add fac. cuts : CAP(1) CSC(2) R1C(111) SSI(2), max.viol = 0.253414, aver.viol = 0.0962788, sep/add took 0.54/0.06 sec. -----
+1548 columns (1548 active), 357 dyn. constrs. (187 active), 588 art. vars. (265 active)
+<DWph=2> <it=  1> <et=4.10> <Mt= 0.01> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  985.1553> <Mlp=  985.1553> <PB=1000000> 
+<DWph=1> <it=  2> <et=4.13> <Mt= 0.01> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  985.1553> <Mlp=  985.1553> <PB=1000000> 
+    TT = 5.9e-05, performed by inspection with 24 solutions, nbR1C = 30
+    TT = 5.5e-05, performed by inspection with 28 solutions, nbR1C = 30
+    TT = 0.003164, performed by inspection with 2555 solutions, nbR1C = 30
+    TT = 0.002022, performed by inspection with 3348 solutions, nbR1C = 30
+    TT = 0.003819, performed by inspection with 5855 solutions, nbR1C = 30
+<DWph=0> <it=  3> <et=4.16> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  985.1553> <Mlp=  985.1553> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999979)
+ColGenEvalAlg final dual bound: 985.155 (rounded: 985.155)
+False gap improvement since the last cut separation : 0.00298483 (984.861)
+Cut generation tailing off counter increased to 2
+[45m TLPC separation [00m
+[43m CSC separation [00m
+[45m SSI SEPARATION [00m
+1 Rank-1 3-rows pack. cuts added ,  max viol. = 0.0320299, aver. viol. = 0.0320299
+Building structures for heuristic rank-1 packing cut separation...done!
+4 Rank-1 4-rows pack. cuts added ,  max viol. = 0.0774056, aver. viol. = 0.0586547
+60 Rank-1 5-rows pack. cuts added ,  max viol. = 0.0911517, aver. viol. = 0.0411473
+----- Add fac. cuts : CAP(2) R1C(65), max.viol = 0.154544, aver.viol = 0.0613667, sep/add took 0.56/0.03 sec. -----
+1569 columns (1569 active), 254 dyn. constrs. (146 active), 655 art. vars. (224 active)
+<DWph=2> <it=  1> <et=4.87> <Mt= 0.01> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  985.2777> <Mlp=  985.2777> <PB=1000000> 
+<DWph=1> <it=  2> <et=4.90> <Mt= 0.00> <Spt= 0.02> <nCl=  0> <al=0.00> <DB=  985.2777> <Mlp=  985.2777> <PB=1000000> 
+    TT = 5.8e-05, performed by inspection with 24 solutions, nbR1C = 32
+    TT = 6e-05, performed by inspection with 28 solutions, nbR1C = 32
+    TT = 0.002195, performed by inspection with 2555 solutions, nbR1C = 32
+    TT = 0.002077, performed by inspection with 3348 solutions, nbR1C = 32
+    TT = 0.002586, performed by inspection with 5855 solutions, nbR1C = 32
+<DWph=0> <it=  3> <et=4.92> <Mt= 0.00> <Spt= 0.01> <nCl=  0> <al=0.00> <DB=  985.2777> <Mlp=  985.2777> <PB=1000000> 
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 24 (100%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+    Full reduced cost fixing is not called (gap ratio is 0.999979)
+ColGenEvalAlg final dual bound: 985.278 (rounded: 985.278)
+False gap improvement since the last cut separation : 0.00124282 (985.155)
+----- Cut generation is stopped due to tailing off -----
+------------------------------------------------
+-- Enumeration for restr. mast. heur. started --
+------------------------------------------------
+ColGenEvalAlg final dual bound: 985.278 (rounded: 985.278)
+False gap = 98.5278
+Reduced cost fixing for graph G_1033...  took 0 sec., done by inspection with 24 solutions, remains 22 (91.7%)
+Reduced cost fixing for graph G_1034...  took 0 sec., done by inspection with 28 solutions, remains 28 (100%)
+Reduced cost fixing for graph G_30...  took 0 sec., done by inspection with 2555 solutions, remains 2555 (100%)
+Reduced cost fixing for graph G_31...  took 0 sec., done by inspection with 3348 solutions, remains 3348 (100%)
+Reduced cost fixing for graph G_32...  took 0 sec., done by inspection with 5855 solutions, remains 5855 (100%)
+Removed 2 enum. columns with red. cost larger than the threshold
+Added 5000 enum. columns to the heuristic restricted master 
+[34m solutions recorded [00m
+[34m solutions in formulation [00m
+------------------------------------------------
+---- Restricted Master IP Heuristic started ----
+------------------------------------------------
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_Emphasis_MIP                            1
+CPXPARAM_MIP_Limits_Nodes                        2000000
+CPXPARAM_Simplex_Tolerances_Optimality           9.9999999999999995e-08
+CPXPARAM_Simplex_Tolerances_Feasibility          9.9999999999999995e-08
+CPXPARAM_TimeLimit                               10
+CPXPARAM_MIP_Tolerances_UpperCutoff              1000000
+CPXPARAM_MIP_Tolerances_MIPGap                   1.0000000000000001e-09
+CPXPARAM_MIP_PolishAfter_Time                    5
+Tried aggregator 2 times.
+MIP Presolve eliminated 12 rows and 666 columns.
+MIP Presolve modified 6312 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 106 rows, 5108 columns, and 120835 nonzeros.
+Reduced MIP has 5076 binaries, 32 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.29 sec. (183.25 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 106 rows, 5108 columns, and 120835 nonzeros.
+Reduced MIP has 5076 binaries, 32 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.12 sec. (66.43 ticks)
+Probing time = 0.02 sec. (20.73 ticks)
+Clique table members: 4155.
+MIP emphasis: integer feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Root relaxation solution time = 0.05 sec. (72.23 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0      985.2777    64                    985.2777      306         
+*     0+    0                         1005.9561      985.2777             2.06%
+      0     0      985.6281    64     1005.9561       Cuts: 5      345    2.02%
+*     0+    0                          986.5978      985.6281             0.10%
+*     0     0      integral     0      985.7626       Cuts: 6      364    0.00%
+      0     0        cutoff            985.7626      985.7626      364    0.00%
+Elapsed time = 0.84 sec. (635.55 ticks, tree = 0.01 MB, solutions = 3)
+
+Clique cuts applied:  5
+Implied bound cuts applied:  1
+Mixed integer rounding cuts applied:  2
+Gomory fractional cuts applied:  2
+
+Root node processing (before b&c):
+  Real time             =    0.84 sec. (636.19 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.84 sec. (636.19 ticks)
+Solution status = Optimum
+[45m TLPC separation [00m
+**** Strong branching phase 1 is started *****
+SB phase 1 cand.  1 branch on var T_2_OmastV (lhs=9.6735)        : [  985.7626,  1008.5341], score = 11.28      <et=6.27>
+SB phase 1 cand.  2 branch on CSA[30,8] (lhs=0.5102)             : [  985.7626,   985.9734], score = 0.34      <et=6.29>
+SB phase 1 cand.  3 branch on CSA[32,8] (lhs=0.4898)             : [  985.7626,   985.9734], score = 0.34      <et=6.3>
+SB phase 1 cand.  4 branch on CSA[30,22] (lhs=0.6030)            : [  985.5729,   985.6166], score = 0.10      <et=6.31>
+SB phase 1 cand.  5 branch on CSA[32,22] (lhs=0.3970)            : [  985.5729,   985.6166], score = 0.10      <et=6.32>
+SB phase 1 cand.  6 branch on CSA[32,19] (lhs=0.2882)            : [  985.5868,   985.9822], score = 0.22      <et=6.34>
+SB phase 1 cand.  7 branch on CSA[30,19] (lhs=0.7118)            : [  985.5868,   985.9822], score = 0.22      <et=6.35>
+SB phase 1 cand.  8 branch on CSA[30,16] (lhs=0.2833)            : [  985.3499,   985.7626], score = 0.03      <et=6.36>
+SB phase 1 cand.  9 branch on CSA[32,16] (lhs=0.7167)            : [  985.3499,   985.7626], score = 0.03      <et=6.37>
+SB phase 1 cand. 10 branch on CSA[32,26] (lhs=0.2269)            : [  985.5868,   985.9822], score = 0.22      <et=6.38>
+SB phase 1 cand. 11 branch on CSA[30,26] (lhs=0.7731)            : [  985.5868,   985.9822], score = 0.22      <et=6.39>
+SB phase 1 cand. 12 branch on CSA[30,6] (lhs=0.2041)             : [  985.3281,   986.8514], score = 0.08      <et=6.41>
+SB phase 1 cand. 13 branch on CSA[32,6] (lhs=0.7959)             : [  985.3281,   986.8514], score = 0.08      <et=6.42>
+SB phase 1 cand. 14 branch on CSA[30,10] (lhs=0.1701)            : [  985.3702,   989.1012], score = 0.35      <et=6.44>
+SB phase 1 cand. 15 branch on CSA[32,10] (lhs=0.8299)            : [  985.3702,   989.1012], score = 0.35      <et=6.45>
+SB phase 1 cand. 16 branch on CSA[30,24] (lhs=0.1633)            : [  985.3247,   987.0272], score = 0.08      <et=6.46>
+SB phase 1 cand. 17 branch on CSA[32,24] (lhs=0.8367)            : [  985.3247,   987.0272], score = 0.08      <et=6.48>
+SB phase 1 cand. 18 branch on var Yl30i13j28_30_OspV (lhs=0.4558): [  985.7338,   986.5003], score = 0.56      <et=6.49>
+SB phase 1 cand. 19 branch on var Yl32i6j16_32_OspV (lhs=0.4422) : [  985.5671,   986.0358], score = 0.22      <et=6.51>
+SB phase 1 cand. 20 branch on var Yl32i8j14_32_OspV (lhs=0.4218) : [  985.6262,   985.7626], score = 0.17      <et=6.52>
+SB phase 1 cand. 21 branch on var Yl32i6j24_32_OspV (lhs=0.4150) : [  985.7573,   985.7607], score = 0.23      <et=6.53>
+SB phase 1 cand. 22 branch on var Yl30i8j28_30_OspV (lhs=0.4082) : [  985.6572,   986.6484], score = 0.52      <et=6.55>
+SB phase 1 cand. 23 branch on var Yl30i21j28_30_OspV (lhs=0.4082): [  985.6471,   986.6618], score = 0.51      <et=6.57>
+SB phase 1 cand. 24 branch on var Yl30i22j30_30_OspV (lhs=0.6030): [  985.5729,   985.6166], score = 0.10      <et=6.58>
+SB phase 1 cand. 25 branch on var Yl30i8j22_30_OspV (lhs=0.3878) : [  985.5293,   986.9317], score = 0.42      <et=6.59>
+SB phase 1 cand. 26 branch on var Yl32i8j24_32_OspV (lhs=0.3810) : [  985.5247,   986.0580], score = 0.19      <et=6.6>
+SB phase 1 cand. 27 branch on var Yl32i1j5_32_OspV (lhs=0.6259)  : [  985.5998,   986.4838], score = 0.39      <et=6.61>
+SB phase 1 cand. 28 branch on var Yl32i1j25_32_OspV (lhs=0.6259) : [  985.7626,   986.1737], score = 0.43      <et=6.63>
+SB phase 1 cand. 29 branch on var Yl32i16j32_32_OspV (lhs=0.6351): [  985.3961,   985.7626], score = 0.06      <et=6.64>
+SB phase 1 cand. 30 branch on var Yl30i26j28_30_OspV (lhs=0.3605): [  985.6464,   986.5607], score = 0.47      <et=6.66>
+SB phase 1 cand. 31 branch on var Yl30i19j30_30_OspV (lhs=0.6463): [  985.7152,   985.7626], score = 0.21      <et=6.67>
+SB phase 1 cand. 32 branch on var Yl30i19j26_30_OspV (lhs=0.6846): [  985.5868,   985.9822], score = 0.22      <et=6.68>
+SB phase 1 cand. 33 branch on var Yl32i4j32_32_OspV (lhs=0.7007) : [  985.4632,   985.7626], score = 0.09      <et=6.69>
+SB phase 1 cand. 34 branch on Y_6_24 (lhs=0.5102)                : [  985.6658,   985.7810], score = 0.20      <et=6.71>
+SB phase 1 cand. 35 branch on Y_8_24 (lhs=0.4694)                : [  985.5793,   986.0580], score = 0.24      <et=6.72>
+SB phase 1 cand. 36 branch on Y_6_16 (lhs=0.5374)                : [  985.7013,   985.9190], score = 0.27      <et=6.73>
+SB phase 1 cand. 37 branch on Y_13_28 (lhs=0.4558)               : [  985.7338,   986.5003], score = 0.56      <et=6.75>
+SB phase 1 cand. 38 branch on Y_8_22 (lhs=0.4558)                : [  985.5879,   985.9014], score = 0.19      <et=6.76>
+SB phase 1 cand. 39 branch on Y_8_14 (lhs=0.4218)                : [  985.6262,   985.7626], score = 0.17      <et=6.78>
+SB phase 1 cand. 40 branch on Y_8_28 (lhs=0.4082)                : [  985.6572,   985.7626], score = 0.18      <et=6.79>
+SB phase 1 cand. 41 branch on Y_21_28 (lhs=0.4082)               : [  985.6471,   986.6618], score = 0.51      <et=6.8>
+SB phase 1 cand. 42 branch on Y_26_28 (lhs=0.4014)               : [  985.6644,   986.5607], score = 0.50      <et=6.82>
+SB phase 1 cand. 43 branch on Y_22_30 (lhs=0.6030)               : [  985.5729,   985.6166], score = 0.10      <et=6.83>
+SB phase 1 cand. 44 branch on Y_1_5 (lhs=0.6259)                 : [  985.5998,   986.4838], score = 0.39      <et=6.84>
+SB phase 1 cand. 45 branch on Y_1_25 (lhs=0.6259)                : [  985.7626,   986.1737], score = 0.43      <et=6.85>
+SB phase 1 cand. 46 branch on Y_16_32 (lhs=0.6351)               : [  985.3961,   985.7626], score = 0.06      <et=6.86>
+SB phase 1 cand. 47 branch on Y_19_30 (lhs=0.6463)               : [  985.7152,   985.7626], score = 0.21      <et=6.88>
+SB phase 1 cand. 48 branch on Y_19_26 (lhs=0.7007)               : [  985.4296,   986.3714], score = 0.17      <et=6.89>
+SB phase 1 cand. 49 branch on Y_2_18 (lhs=0.7007)                : [  985.7010,   992.6463], score = 3.12      <et=6.9>
+SB phase 1 cand. 50 branch on Y_18_23 (lhs=0.7007)               : [  985.6959,   992.9662], score = 3.21      <et=6.92>
+**** Strong branching phase 2 is started *****
+    TT = 5.1e-05, performed by inspection with 24 solutions, nbR1C = 7
+    TT = 5.3e-05, performed by inspection with 28 solutions, nbR1C = 7
+    TT = 0.001979, performed by inspection with 2555 solutions, nbR1C = 7
+    TT = 0.002107, performed by inspection with 3348 solutions, nbR1C = 7
+    TT = 0.002241, performed by inspection with 5855 solutions, nbR1C = 7
+Dynamic params and stats :  bidir.bord. = 164 aver.obdmd = 16 nbR1C = 7 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 164 aver.obdmd = 18 nbR1C = 7 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.602366 nbR1C = 7 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.610555 nbR1C = 7 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.615105 nbR1C = 7 with avMem = 0
+<DWph=0> <it=  5> <et=7.09> <Mt= 0.02> <Spt= 0.10> <nCl=  7> <al=0.00> <DB= 1005.4368> <Mlp= 1005.4368> <PB=985.76261> 
+    TT = 5.4e-05, performed by inspection with 24 solutions, nbR1C = 24
+    TT = 5.4e-05, performed by inspection with 28 solutions, nbR1C = 24
+    TT = 0.002379, performed by inspection with 2555 solutions, nbR1C = 24
+    TT = 0.002047, performed by inspection with 3348 solutions, nbR1C = 24
+    TT = 0.002573, performed by inspection with 5855 solutions, nbR1C = 24
+Dynamic params and stats :  bidir.bord. = 164 aver.obdmd = 16 nbR1C = 24 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 164 aver.obdmd = 18 nbR1C = 24 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.602366 nbR1C = 24 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.610555 nbR1C = 24 with avMem = 0
+Dynamic params and stats :  bidir.bord. = 118.5 aver.obdmd = 0.615105 nbR1C = 24 with avMem = 0
+<DWph=0> <it=  3> <et=7.28> <Mt= 0.00> <Spt= 0.05> <nCl=  0> <al=0.00> <DB=  985.7626> <Mlp=  985.7626> <PB=985.76261> 
+ SB phase 2 candidate 1 is conquered !
+**** Strong branching phase 3 is started *****
+**** SB phase 3 evaluation of candidate 1, branch 1 ( T_2_OmastV <= 9 ), value = 1005.44
+Branch is already conquered!
+**** SB phase 3 evaluation of candidate 1, branch 2 ( T_2_OmastV >= 10 ), value = 985.763
+Branch is already conquered!
+ SB phase 3 candidate 1 is conquered !
+SB with phases chosed candidate var T_2_OmastV (lhs=9.67347)
+New model incumbent solution 985.763, TIME = 0h0m7s30t = 730
+************************************************************************************************
+Search is finished, global bounds : [ 985.763 , 985.763 ], TIME = 0h0m7s30t = 730
+************************************************************************************************
+------------------------------------------ 
+Best found solution of value 985.763 : 
+[33m ************** Solution Checker ****************** [00m
+Solution uses [1m2[00m first level routes & [1m10[00m second level routes.
+Solution uses [1m3[00m urban trucks & [1m10[00m city freighters.
+[1;44mFlow served by 1st level routes is 443 & total demand of customers is 443[00m
+
+[1m FIRST LEVEL ROUTES [00m
+	 [1m34[00m (t=0 & d=0)     [1m32[00m (t=20.296 & d=267)     [1m34[00m (t=30.592 & d=0)      Q=[1m267[00m
+	 [1m34[00m (t=0 & d=0)     [1m30[00m (t=47.363 & d=176)     [1m34[00m (t=84.726 & d=0)      Q=[1m176[00m
+[1m SECOND LEVEL ROUTES [00m
+	 [41;1m32[00m (t=145.599 & l=0)    [1m10[00m (t=162 & l=43)    [1m27[00m (t=216 & l=21)    [41;1m32[00m (t=329 & l=0)     (distcost = 33.4612)
+	 [41;1m32[00m (t=23.905 & l=0)    [1m14[00m (t=45 & l=50)    [1m8[00m (t=92 & l=35)    [1m28[00m (t=113.292 & l=23)    [1m24[00m (t=130 & l=17)    [1m6[00m (t=142 & l=7)    [41;1m32[00m (t=329 & l=0)     (distcost = 58.3795)
+	 [41;1m30[00m (t=50.153 & l=0)    [1m22[00m (t=73 & l=50)    [1m19[00m (t=95 & l=36)    [1m26[00m (t=120 & l=13)    [1m16[00m (t=236 & l=6)    [41;1m30[00m (t=329 & l=0)     (distcost = 47.2853)
+	 [41;1m30[00m (t=98.212 & l=0)    [1m11[00m (t=117 & l=46)    [1m9[00m (t=136 & l=36)    [1m3[00m (t=162 & l=22)    [41;1m30[00m (t=329 & l=0)     (distcost = 66.8034)
+	 [41;1m30[00m (t=49.384 & l=0)    [1m20[00m (t=57 & l=50)    [1m12[00m (t=117 & l=34)    [1m29[00m (t=195 & l=22)    [41;1m30[00m (t=329 & l=0)     (distcost = 35.084)
+	 [41;1m30[00m (t=121.706 & l=0)    [1m21[00m (t=132.476 & l=30)    [1m13[00m (t=158 & l=12)    [41;1m30[00m (t=329 & l=0)     (distcost = 44.099)
+	 [41;1m32[00m (t=27.752 & l=0)    [1m25[00m (t=46 & l=49)    [1m1[00m (t=115 & l=32)    [1m5[00m (t=130 & l=13)    [41;1m32[00m (t=329 & l=0)     (distcost = 43.1327)
+	 [41;1m32[00m (t=89.838 & l=0)    [1m17[00m (t=93 & l=43)    [1m0[00m (t=169 & l=23)    [41;1m32[00m (t=329 & l=0)     (distcost = 23.1985)
+	 [41;1m32[00m (t=40.526 & l=0)    [1m15[00m (t=59.631 & l=49)    [1m23[00m (t=82 & l=43)    [1m18[00m (t=213 & l=36)    [1m2[00m (t=241 & l=24)    [41;1m32[00m (t=329 & l=0)     (distcost = 80.2456)
+	 [41;1m32[00m (t=131.889 & l=0)    [1m4[00m (t=150 & l=33)    [1m7[00m (t=244 & l=17)    [41;1m32[00m (t=329 & l=0)     (distcost = 38.1648)
+
+Cost of the solution is [1m985.764[00m
+[41m computed cost not equal to cost of solution ! [00m
+ distance cost = 585.764 & vehicles cost = 400
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Threads                                 1
+Tried aggregator 1 time.
+MIP Presolve eliminated 120 rows and 132 columns.
+MIP Presolve modified 20 coefficients.
+All rows and columns eliminated.
+Presolve time = 0.00 sec. (0.08 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.10 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.10 ticks)
+[31m postProcessing status = Optimal[00m
+[31m postProcessing value = 0[00m
+Solution value  = 0
+Solution status = Optimal
+Default row names c1, c2 ... being created.
+Version identifier: 12.10.0.0 | 2019-11-26 | 843d4de
+CPXPARAM_Threads                                 1
+Tried aggregator 2 times.
+MIP Presolve eliminated 25 rows and 33 columns.
+Aggregator did 6 substitutions.
+Reduced MIP has 2 rows, 4 columns, and 8 nonzeros.
+Reduced MIP has 2 binaries, 2 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.05 ticks)
+Found incumbent of value 0.000000 after 0.00 sec. (0.06 ticks)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.06 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.06 ticks)
+Solution status = Optimal
+2nd lev route r = 0 & i = 0 served by 1st lev route p = 0 & j = 0
+2nd lev route r = 1 & i = 0 served by 1st lev route p = 0 & j = 0
+2nd lev route r = 7 & i = 0 served by 1st lev route p = 0 & j = 0
+2nd lev route r = 9 & i = 0 served by 1st lev route p = 0 & j = 0
+2nd lev route r = 6 & i = 0 served by 1st lev route p = 0 & j = 1
+2nd lev route r = 8 & i = 0 served by 1st lev route p = 0 & j = 1
+2nd lev route r = 2 & i = 0 served by 1st lev route p = 1 & j = 0
+2nd lev route r = 3 & i = 0 served by 1st lev route p = 1 & j = 0
+2nd lev route r = 4 & i = 0 served by 1st lev route p = 1 & j = 0
+2nd lev route r = 5 & i = 0 served by 1st lev route p = 1 & j = 0
+[33m ************** Solution Checker ****************** [00m
+Solution uses [1m2[00m first level routes & [1m10[00m second level routes.
+Solution uses [1m3[00m urban trucks & [1m10[00m city freighters.
+[1;44mFlow served by 1st level routes is 443 & total demand of customers is 443[00m
+
+[1m FIRST LEVEL ROUTES [00m
+	 [1m34[00m (t=0 & d=0)     [1m32[00m (t=20.2956 & d=267)     [1m34[00m (t=328 & d=0)      Q=[1m267[00m
+	 [1m34[00m (t=0 & d=0)     [1m30[00m (t=47.3631 & d=176)     [1m34[00m (t=328 & d=0)      Q=[1m176[00m
+[1m SECOND LEVEL ROUTES [00m
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m10[00m (t=162 & l=43)    [1m27[00m (t=196 & l=21)    [41;1m32[00m (t=329 & l=0)     (distcost = 33.4612)
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m14[00m (t=45 & l=50)    [1m8[00m (t=72 & l=35)    [1m28[00m (t=113.292 & l=23)    [1m24[00m (t=130 & l=17)    [1m6[00m (t=142 & l=7)    [41;1m32[00m (t=329 & l=0)     (distcost = 58.3795)
+	 [41;1m30[00m (t=47.3631 & l=0)    [1m22[00m (t=70.2104 & l=50)    [1m19[00m (t=95 & l=36)    [1m26[00m (t=120 & l=13)    [1m16[00m (t=216 & l=6)    [41;1m30[00m (t=329 & l=0)     (distcost = 47.2853)
+	 [41;1m30[00m (t=47.3631 & l=0)    [1m11[00m (t=97 & l=46)    [1m9[00m (t=136 & l=36)    [1m3[00m (t=162 & l=22)    [41;1m30[00m (t=329 & l=0)     (distcost = 66.8034)
+	 [41;1m30[00m (t=47.3631 & l=0)    [1m20[00m (t=57 & l=50)    [1m12[00m (t=97 & l=34)    [1m29[00m (t=175 & l=22)    [41;1m30[00m (t=329 & l=0)     (distcost = 35.084)
+	 [41;1m30[00m (t=47.3631 & l=0)    [1m21[00m (t=132.476 & l=30)    [1m13[00m (t=158 & l=12)    [41;1m30[00m (t=329 & l=0)     (distcost = 44.099)
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m25[00m (t=46 & l=49)    [1m1[00m (t=113 & l=32)    [1m5[00m (t=128 & l=13)    [41;1m32[00m (t=329 & l=0)     (distcost = 43.1327)
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m17[00m (t=93 & l=43)    [1m0[00m (t=149 & l=23)    [41;1m32[00m (t=329 & l=0)     (distcost = 23.1985)
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m15[00m (t=59.6307 & l=49)    [1m23[00m (t=82 & l=43)    [1m18[00m (t=193 & l=36)    [1m2[00m (t=241 & l=24)    [41;1m32[00m (t=329 & l=0)     (distcost = 80.2456)
+	 [41;1m32[00m (t=20.2956 & l=0)    [1m4[00m (t=150 & l=33)    [1m7[00m (t=224 & l=17)    [41;1m32[00m (t=329 & l=0)     (distcost = 38.1648)
+
+Cost of the solution is [1m985.764[00m
+[41m computed cost not equal to cost of solution ! [00m
+ distance cost = 585.764 & vehicles cost = 400
+>>-!-!-<<
+Instance,Phase,InitUB,FeasibleFinalSolution,bcFailToSolveModel,bcCountNodeProc,bcRecRootDb,bcRecBestDb,bcRecBestInc,bcCountMastSol,bcCountCg,bcCountSpSol,bcCountCol,bcCountCutInMaster,bcTimeMastMPsol,bcTimeColGen,bcTimeCutSeparation,bcTimeAddCutToMaster,bcTimeRedCostFixAndEnum,bcTimeRootEval,bcTimeBaP,rootGap,bestGap,bestSolKnown,Improv,PostProcWaitingTime,PostProcConsolidation,ComputedSolVal
+/SetD/Cb1-2-3-30.txt,0,1000000.000000,true,0.000000,3,985.278,985.763,985.763,152,76,380,6801,577,67.803,149.995,206.000,30.000,77.676,496.420,649.247,0.000,0.000,985.763,-0.000,0.000,false,985.764
+>>-!-!-<<
+Program Status = 0
+Program exited normaly. Messages = 
+	Command being timed: "sh /home/gmarques/TwoEchelonVRPwithTW/plafrim_exp/experiments/experiment_23/jobs-running/291440/miriel013.4/pe_SetD_Cb1-2,3,30.txt_23.sh"
+	User time (seconds): 7.24
+	System time (seconds): 0.30
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 365528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 155833
+	Voluntary context switches: 81
+	Involuntary context switches: 16
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 176
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
